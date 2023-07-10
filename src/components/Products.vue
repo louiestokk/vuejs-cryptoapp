@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <b-navbar type="dark" variant="danger">
+      <b-navbar type="dark" variant="danger" style="padding: 1rem">
         <b-navbar-brand href="#">CoinSpace</b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>

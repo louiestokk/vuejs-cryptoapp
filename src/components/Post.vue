@@ -16,6 +16,7 @@
       </div>
     </div>
     <LineChartGenerator
+      :options="chartOptions"
       :data="{
         labels: ['mån', 'tisd', 'onsd', 'torsd', 'fred', 'lörd', 'sönd'],
         datasets: [
@@ -61,6 +62,9 @@ export default {
   data() {
     return {
       chartData: null,
+      chartOptions: {
+        responsive: true,
+      },
     };
   },
 
